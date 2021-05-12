@@ -13,7 +13,7 @@ getAttribute("Attributename");
 
 		
 			WebElement Email=driver.findElement(By.id("email"));
-			String Rvalue=Element.getAttribute("style");
+			String Rvalue=Email.getAttribute("style");
 			System.out.println(Rvalue); -------------------------------------> display:none
 
 
